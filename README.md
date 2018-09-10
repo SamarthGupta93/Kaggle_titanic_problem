@@ -1,7 +1,23 @@
 # Kaggle_titanic_problem
-Predicts if a person on the ship is likely to survive
 
-The labels are provided in gender_submission.csv
+NOTE: This is a very basic approach to solve the problem
+Ideally, you should analyse the data graphically
+Encode the categorical features with OneHotEncoding
+Try to generate new features (logical) from the existing ones and see if you get a better result
+Try the regression with different parameters
+Check for overfitting/underfitting
+Incase of overfitting:
+    Get More Data
+    Try Regularization
+Incase of underfitting:
+    Try a parmeter tuning
+    Do k-fold cross validations
+    Try another classifier
+
+
+*****Predicts if a person on the ship is likely to survive*****
+
+The labels for test data are provided in gender_submission.csv
 The train and test csv files are also provided
 
 Data preprocessing
